@@ -13,6 +13,7 @@ Then with the 0th pod do:
 
 ```
 kubectl -n default port-forward wordpress-9c96b9b94-ltdln 8080:8080
+kubectl -n default port-forward jaeger-jaeger-all-in-one-0 16686:16686
 ```
 
 This is a group assignment. The assignment is to instrument the php code in wordpress to do the REDS metrics and fix a few deficiencies. The marking scheme is:
